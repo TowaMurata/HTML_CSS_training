@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    line-height: 1.7;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Philosopher', sans-serif;
+    color: #432;
+}
+
+.logo {
+    width: 300px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav  {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.main-nav {
+    margin-right: 50px;
+}
+
+.main-nav li{
+    text-align: right;
+    margin-left: 36px;
+}
+.main-nav  a{
+    color: #432;
+}
+
+.main-nav a:hover{
+    color: #0bd;
+}
+
+.main{
+    text-align: center;
+    font-size:250%;
+    margin-top: 120px;
+    margin-right: 600px;
+}
+
+.main h3{
+    font-size: 40%;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.main a{
+    color: #432;
+
+}
+
+.main a:hover{
+    color: #0bd;
+}
+
+
+footer{
+    background-color: #432;
+    text-align: center;
+    padding: 6px;
+    margin-top: 300px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home{
+    background-image: url(../image/adult-g3cbf2e0a8_1920.jpg);
+    min-height: 100vh;
+}
+
+/* about.html */
+
+.headline{
+    text-align: center;
+}
+
+.introduction{
+    display: flex;
+    margin-top: 50px;
+}
+
+div .image{
+    margin-left: 350px;
+}
+
+.image img{
+    width: 210px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: -38px;
+}
+
+.about h2{
+    margin-left: 350px;
+}
+
+.about .self{
+    margin-top: 15px;
+    margin-left: 200px;
+}
